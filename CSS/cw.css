@@ -3,8 +3,20 @@
     background-color: antiquewhite;
 }
 .text-pink{
-    color: blueviolet;
+    color: rgb(43, 52, 226);}
 
+.text-para{
+    font-size: 1.8rem;
+    text-align: left;
+    text-decoration: wavy;
+    text-transform: lowercase;
+    text-indent: 90%;
+    white-space: nowrap;
+}
+
+.text-shadow{
+    text-shadow: 2px 2px 5 px red;
+}
 
 h1{
     color: rgb(128, 0, 28);
@@ -30,7 +42,3 @@ h1{
     background-color: yellow;
 }
 
-.text-para{
-    font-size: 2.8rem;
-    text-align: justify;
-}
