@@ -1,18 +1,28 @@
 #heading1{
-    color: #B3C9E2;
+    color: rgb(179, 201, 226);
     background-color: antiquewhite;
+    margin-left: 10px;
 }
 .text-pink{
-    color: rgb(43, 52, 226);}
+    color: rgba(226, 43, 217, 0.5); /*adding a to the end of rgb changes the opactiy - goes from 0 to 1 - 1 being fully solid and 0 being transparent */
+    margin-left: 5px;
+}
 
 .text-para{
     font-size: 1.8rem;
-    text-align: left;
+    /*text-align: left;*/
     text-decoration: wavy;
     text-transform: lowercase;
-    text-indent: 90%;
+    /*text-indent: 10%*/
     white-space: nowrap;
 }
+
+@media (max-width: 2000px) {
+ body {
+ background-color: lightblue;
+ }
+}
+
 
 .text-shadow{
     text-shadow: 2px 2px 5 px red;
@@ -20,18 +30,45 @@
 
 h1{
     color: rgb(128, 0, 28);
+    font-family: "quando"; 
+    font-style: italic;
+    font-weight: 1000;
 }
+/*this is a comment in css*/
+a{
+    color:rgb(0, 139, 139);
+    text-decoration: none;
+    background-color: darkorange;
+    padding: 20px 10px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+:root {
+    --primary-red: #61030c; 
+}
+/*using the root and variable is useful because it allows you to change the colour everywhere on your website*/
+
+a:hover{
+    color: var(--primary-red);
+    background-color: yellowgreen; /*to change the background while hovering*/
+}
+
+
+
+
 
 h2{
     color: brown;
 }
 body{
-    background-image: url("../IMG/istockphoto-517188688-612x612.jpg"); 
+    /*background-image: url("../IMG/istockphoto-517188688-612x612.jpg"); */
     background-repeat: no-repeat;
     background-position: 100% 0%;
     background-attachment: fixed;
     background-color: #ECEDDA;
     color: black;
+    font-family: "quando", Georgia, serif; 
 }
 
 h1{
