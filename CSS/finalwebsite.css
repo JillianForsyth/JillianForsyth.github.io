@@ -1,0 +1,39 @@
+.logo{
+    transform: translateY(-2px);
+}/*this is helping to keep the logo relative to the text*/
+
+body{
+    font-family: "Quando";
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#HOME,
+#ABOUT,
+#EXPERIENCE,
+#PROJECTS,
+#CONTACT{
+    height: 700px;
+}
+
+#HOME{
+    background-color: rgb(236, 237, 218);
+}
+
+#ABOUT{
+    background-color: green;
+}
+
+#EXPERIENCE{
+    background-color: aqua;
+}
+
+#PROJECTS{
+    background-color: cornflowerblue;
+}
+
+#CONTACT{
+    background-color: fuchsia;
+}
