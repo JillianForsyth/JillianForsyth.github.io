@@ -2,13 +2,24 @@
     transform: translateY(-2px);
 }/*this is helping to keep the logo relative to the text*/
 
-body{
-    font-family: "Quando";
+*{
+    font-family: "quando", Georgia, serif; 
 }
 
 html{
     scroll-behavior: smooth;
 }
+
+.nav-item{
+    font-weight: 400;
+    background-color: brown;
+}
+
+.navbar-brand{
+    background-color: blue;
+}
+
+
 
 #HOME,
 #ABOUT,
