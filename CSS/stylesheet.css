@@ -18,6 +18,11 @@ ul {
 
 
 /* BASE STYLES */
+
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'quando', Georgia, serif;
     background-color: rgb(236, 237, 218);
@@ -71,6 +76,10 @@ body {
 }
 
 .nav_link:hover {
+    color: rgb(236, 237, 218, 1);
+}
+
+.active{
     color: rgb(236, 237, 218, 1);
 }
 
