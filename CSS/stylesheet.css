@@ -57,6 +57,11 @@ body {
 
 }
 
+.websitename{
+    color:rgb(236, 237, 218);
+    font-size: 32px;
+}
+
 .nav {}
 
 .nav_list {

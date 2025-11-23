@@ -9,10 +9,10 @@ window.addEventListener('scroll', () => {
         }
     });
 
-navLinkEls.forEach(navLinkEls => {
-    if (navLinkEl.href.includes(currentSection)) {
-        document.querySelector('.active').classList.remove('active');
-        navLinkEl.classlist.add('active');
-    }
-});
+    navLinkEls.forEach(navLinkEl => {
+        if (navLinkEl.href.includes(currentSection)) {
+            document.querySelector('.active').classList.remove('active');
+            navLinkEl.classlist.add('active');
+        }
+    });
 });
