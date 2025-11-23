@@ -1,50 +1,73 @@
-.logo{
-    transform: translateY(-2px);
-}/*this is helping to keep the logo relative to the text*/
+/*STYLES FOR EVERYTHING*/
 
 *{
-    font-family: "quando", Georgia, serif; 
+    font-family: "quando", Georgia, serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.nav-item{
+
+/*STYLES FOR NAV BAR*/
+
+.logo {
+    transform: translateY(-2px);
+}/*this is helping to keep the logo relative to the text*/
+
+
+
+
+/*this is for changing things about the nav link section .nav-item{
     font-weight: 400;
     background-color: brown;
+}*/
+
+.navbar-brand {
+    /*this is for changing things about the phrase "Jillian Forsyth's Portfolio*/
+    color: rgb(236, 237, 218);
+    font-size: 32px;
+    font-style: bold;
 }
 
-.navbar-brand{
-    background-color: blue;
+
+.nav-link {
+    color: rgb(236, 237, 218);
+    font-size: 20px;
+    transition: all 0.8s; /*makes a slow, smooth transition when hovering*/
 }
 
+.nav-link:hover{
+    color: blue;
+}
+
+/*STYLES FOR SECTIONS*/
 
 
 #HOME,
 #ABOUT,
 #EXPERIENCE,
 #PROJECTS,
-#CONTACT{
+#CONTACT {
     height: 700px;
 }
 
-#HOME{
+#HOME {
     background-color: rgb(236, 237, 218);
 }
 
-#ABOUT{
+#ABOUT {
     background-color: green;
 }
 
-#EXPERIENCE{
+#EXPERIENCE {
     background-color: aqua;
 }
 
-#PROJECTS{
+#PROJECTS {
     background-color: cornflowerblue;
 }
 
-#CONTACT{
+#CONTACT {
     background-color: fuchsia;
 }
