@@ -98,9 +98,9 @@ body {
 .section {
     height: 100vh;
     /*the sections are 100% of the viewport (aka display?)*/
-    padding-top: 56px; /*this is to stop the navbar from blocking the section page elements */
-    display: flex;
-    justify-content: center; /*puts the content in the centre of the top*/
+    padding-top: 80px; /*this is to stop the navbar from blocking the section page elements */
+   /* display: flex;
+    justify-content: center; /*puts the content in the centre of the top
     align-items: center; /*puts the content in the middle of the page*/
 
 
@@ -128,6 +128,10 @@ body {
 
 .heading {
     font-size: 150px;
+}
+
+.container{
+    margin: 0 auto;
 }
 
 /*FOOTER STYLES*/
