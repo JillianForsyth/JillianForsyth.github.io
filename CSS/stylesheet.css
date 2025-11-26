@@ -48,19 +48,20 @@ body {
     /*keeps the logo and nav_items from hitting the edge - 0 pixels top/bottom and 30 pixels right-left*/
 }
 
-.logo {}
+.websitename {
+    color:rgb(236, 237, 218);
+    font-size: 32px;
+    transform: translateX(100px);
+    position: fixed;
+    display: flex;
+} /*this controls the the title Jillian Forsyth's Portfolio*/
 
 .logo_img {
     height: 100px;
-    display: block
+    display: flex
         /*helps keep the logo centered within the header*/
-
 }
 
-.websitename{
-    color:rgb(236, 237, 218);
-    font-size: 32px;
-}
 
 .nav {}
 
@@ -97,6 +98,7 @@ body {
 .section {
     height: 100vh;
     /*the sections are 100% of the viewport (aka display?)*/
+    padding-top: 56px; /*this is to stop the navbar from blocking the section page elements */
     display: flex;
     justify-content: center; /*puts the content in the centre of the top*/
     align-items: center; /*puts the content in the middle of the page*/
@@ -105,7 +107,7 @@ body {
 }
 
 .section:nth-child(1) {
-    background: rgb(182, 190, 198);    
+    background: rgb(236, 237, 218);    
 }
 
 .section:nth-child(2) {
@@ -127,3 +129,43 @@ body {
 .heading {
     font-size: 150px;
 }
+
+/*FOOTER STYLES*/
+
+
+.footerContainer{
+    background-color: rgb(90, 75, 37);
+    width: 100%;
+    padding: 10px 10px 10px;
+
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+    color: rgb(236, 237, 218, 0.75);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s;
+    
+}
+
+.footerNav ul li a:hover{
+    color: rgb(236, 237, 218, 1);
+}
+
+.footerBottom{
+    background-color: rgb(90, 75, 37);
+    padding: 20px;
+    text-align: center;
+    color: rgb(236, 237, 218, 0.75);
+}
+
