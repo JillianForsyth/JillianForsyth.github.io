@@ -29,65 +29,7 @@ body {
 }
 
 /* NAVBAR STYLES */
-.header {
-    background-color: rgb(90, 75, 37);
-    position: fixed; /*keeps the header fixed but need to add width otherwise it only takes up some of the page*/
-    width: 100%;
-    /*find and watch gradbyte video for keeping the header from taking up space on the section page*/
-}
 
-.header_content {
-    display: flex;
-    /*this puts logo on same line as nav_items*/
-    align-items: center;
-    /*determines how the nav_items appear*/
-    justify-content: space-between;
-    /*puts space between logo and nav_items*/
-    height: 100px;
-    padding: 0 25px;
-    /*keeps the logo and nav_items from hitting the edge - 0 pixels top/bottom and 30 pixels right-left*/
-}
-
-.websitename {
-    color:rgb(236, 237, 218);
-    font-size: 32px;
-    transform: translateX(100px);
-    position: fixed;
-    display: flex;
-} /*this controls the the title Jillian Forsyth's Portfolio*/
-
-.logo_img {
-    height: 100px;
-    display: flex
-        /*helps keep the logo centered within the header*/
-}
-
-
-.nav {}
-
-.nav_list {
-    display: flex;
-    /*puts the nav_items in a line*/
-    column-gap: 40px;
-    /*separates the nav_items by 40 px each*/
-}
-
-.nav_item {}
-
-.nav_link {
-    color: rgb(236, 237, 218, 0.75);
-    font-size: 20px;
-    transition: all 0.5s;
-
-}
-
-.nav_link:hover {
-    color: rgb(236, 237, 218, 1);
-}
-
-.active{
-    color: rgb(236, 237, 218, 1);
-}
 
 /* MAIN STYLES */
 
@@ -146,7 +88,7 @@ body {
 }
 
 .footerNav{
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 .footerNav ul{
