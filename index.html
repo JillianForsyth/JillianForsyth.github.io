@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet">
+    <!--this links my font-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--this links me to bootstrap-->
+    <link rel="stylesheet" href="CSS/stylesheet.css"> <!--this links my CSS stylesheet-->
 
-    <link rel="stylesheet" href="CSS/stylesheet.css">
-
-    <script src="JS/script.js"></script>
+    <script src="JS/script.js"></script> <!--this links my attempt to do JS to delete-->
 
     <title>Jillian Forsyth - Portfolio Website</title>
 </head>
@@ -24,6 +25,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #975215">
             <!--fixed top keeps header at top of page-->
             <div class="container-fluid">
+                <!--I want the header and its text to extend all the way across the page, so I use container-fluid-->
                 <a class="navbar-brand" href="#HOME">
                     <img class="logo" src="IMG/websitelogo.png" alt="Logo featuring the letter J and F" width="75px">
                     Jillian Forsyth's Portfolio
@@ -69,7 +71,7 @@
             <h2 class="heading">Experience</h2>
         </section>
         <section id="PROJECTS">
-            <div class="container pt-5 pb-3">
+            <div class="container pt-5 pb-3"> <!--using this to pad this section top and bottom-->
                 <div class="row pb-3"> <!--pb = padding bottom 1 to 5-->
                     <div class="col">
                         <h5 class="heading">
@@ -133,8 +135,23 @@
         </section>
 
     </main>
+    <footer>
+        <div class="footerContainer">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#HOME">HOME</a></li>
+                    <li><a href="#ABOUT">ABOUT</a></li>
+                    <li><a href="#EXPERIENCE">EXPERIENCE</a></li>
+                    <li><a href="#PROJECTS">PROJECTS</a></li>
+                    <li><a href="#CONTACT">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy; 2025; Designed by Jillian</p>
 
-
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
