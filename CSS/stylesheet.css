@@ -21,6 +21,7 @@ ul {
 
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 6rem; /*stops the navbar from covering content on the screen*/
 }
 
 body {
@@ -34,18 +35,14 @@ body {
 /* MAIN STYLES */
 
 .main {
-    
+    padding: 12.5rem 10vw 2rem; /*makes the menu style display for section pages*/
 }
+
+
 
 .section {
     height: 100vh;
     /*the sections are 100% of the viewport (aka display?)*/
-    padding-top: 80px; /*this is to stop the navbar from blocking the section page elements */
-    display: flex;
-    justify-content: center; /*puts the content in the centre of the top*/
-    align-items: center; /*puts the content in the middle of the page*/
-
-
 }
 
 .section:nth-child(1) {
@@ -61,7 +58,7 @@ body {
 }
 
 .section:nth-child(4) {
-    background: rgb(198, 182, 182);
+    background: rgb(236, 237, 218);
 }
 
 .section:nth-child(5) {
@@ -69,50 +66,40 @@ body {
 }
 
 .heading {
-    font-size: 150px;
+    font-size: 64px;
+    color: rgb(34, 28, 14);
 }
 
-.container{
-    margin: 0 auto;
+/*CARD STYLES*/
+
+.project_intro{
+    color: rgb(59, 49, 24);
+    padding: 10px 0px;
 }
 
+.btn-primary{
+    color: rgb(59, 49, 24);
+    background-color: rgb(236, 237, 218);
+    border: none;
+}
+
+.btn-primary:hover{
+    color: rgb(236, 237, 218);
+    background-color: rgb(179, 201, 226);
+    border: none;
+}
+
+.card{
+    transition: 0.8s; /*makes hover smooth */
+    background-color: rgb(151, 82, 21);
+    color: rgb(236, 237, 218);
+} 
+
+.card:hover{
+    transform: scale(1.15);
+} /*enlarges card when hovered over*/
 
 /*FOOTER STYLES*/
 
 
-.footerContainer{
-    background-color: rgb(90, 75, 37);
-    width: 100%;
-    padding: 10px 10px 10px;
-
-}
-
-.footerNav{
-    margin: 10px 0;
-}
-
-.footerNav ul{
-    display: flex;
-    justify-content: center;
-}
-
-.footerNav ul li a{
-    color: rgb(236, 237, 218, 0.75);
-    margin: 20px;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.5s;
-    
-}
-
-.footerNav ul li a:hover{
-    color: rgb(236, 237, 218, 1);
-}
-
-.footerBottom{
-    background-color: rgb(90, 75, 37);
-    padding: 20px;
-    text-align: center;
-    color: rgb(236, 237, 218, 0.75);
-}
 
