@@ -27,8 +27,11 @@ html {
 }
 
 @media (max-width: 2000px) {
-   
+
     }
+
+
+
 
  body {
         font-family: 'quando', Georgia, serif;
@@ -122,6 +125,16 @@ html {
 .accordion-button:not(.collapsed) {
     box-shadow: none;
 }
+
+.progress{
+    --bs-progress-height: 3rem;
+    --bs-progress-font-size: 16px;
+    --bs-progress-bg: rgba(179, 201, 226, 0.3);
+    --bs-progress-bar-color: rgb(236, 237, 218);
+    --bs-progress-bar-bg: rgb(151, 82, 21);
+    --bs-progress-border-radius: 100px;
+}
+
 
 
 
