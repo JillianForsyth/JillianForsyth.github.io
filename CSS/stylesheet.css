@@ -37,36 +37,36 @@ body {
 } /*Wave wesbite said contrast between header background and preset bootstrap font colour wasn't strong enough, so I changed to a higher contrast colour*/
 
 
-/* MAIN STYLES */
+/* MAIN SITE STYLES */
 
-.main {
-    padding: 12.5rem 10vw 2rem; /*makes the menu style display for section pages*/
+#HOME,
+#ABOUT,
+#EXPERIENCE,
+#PROJECTS,
+#CONTACT{
+   height: 100vh;
+}
+
+#HOME{
+    background-color: rgb(236, 237, 218);
 }
 
 
-.section {
-    height: 100vh;
-    /*the sections are 100% of the viewport (aka display?)*/
+#ABOUT{
+    background-color: red;
 }
 
-.section:nth-child(1) {
-    background: rgb(236, 237, 218);    
+#EXPERIENCE{
+    background-color: yellow;
+
 }
 
-.section:nth-child(2) {
-    background: rgb(190, 182, 198);
+#PROJECTS{
+    background-color: rgb(236, 237, 218);
 }
 
-.section:nth-child(3) {
-    background: rgb(197, 198, 182);
-}
-
-.section:nth-child(4) {
-    background: rgb(236, 237, 218);
-}
-
-.section:nth-child(5) {
-    background: rgb(182, 182, 182);
+#CONTACT{
+    background-color: blue;
 }
 
 .heading {
