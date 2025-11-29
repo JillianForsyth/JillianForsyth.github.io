@@ -25,9 +25,12 @@ html{
     scroll-padding-top: 6rem; /*stops the navbar from covering content on the screen*/
 }
 
-body {
-    font-family: 'quando', Georgia, serif;
+@media (max-width: 2000px) {
+ body {
+ font-family: 'quando', Georgia, serif;
     background-color: rgb(236, 236, 221); /*background colour for entire website*/
+    padding: 12.5rem 10vw 2rem;
+ }
 }
 
 /* NAVBAR STYLES */
@@ -49,7 +52,6 @@ body {
 
 #HOME{
     background-color: rgb(236, 237, 218);
-    padding-top: 9rem;
 }
 
 
@@ -75,7 +77,27 @@ body {
     color: rgb(34, 28, 14);
 }
 
+/* HOME SECTION STYLES*/
 
+.img{
+    width: 100%; /*makes the img responsive and fill 100% of the container's width*/
+    max-width: 400px;
+    object-fit: cover; /*fits the container while maintaining aspect ratio*/
+    vertical-align: middle;
+}
+
+.wrapper{
+    padding: 0px 15px;
+    display: flex; /*aligns elements within wrapper horizontally*/
+    flex-wrap: wrap; /*moves element within wrapper to next line if there's not enough space*/
+    align-items: center; /*vertically centering elements in container*/
+    justify-content: space-around; /*allows elements within wrapper to take equal space around themselves */
+    gap: 5rem; /*creates space between image and text elements*/
+}
+
+.intro{
+    flex: 1 /*makes sure the element takes up as much space as possible in the wrapper*/
+}
 
 /*CARD STYLES*/
 
