@@ -26,10 +26,14 @@ html {
     /*stops the navbar from covering content on the screen*/
 }
 
+img{
+    max-inline-size: 100%; /*makes the Home image and any other future images responsive*/
+
+}
+
 @media (max-width: 2000px) {
+    
     }
-
-
 
 
  body {
@@ -58,24 +62,7 @@ html {
     overflow-y: scroll; /*this is my way to prevent the sections from overlapping and being more responsive to different screen sizes*/
 }
 
-#HOME {
-}
 
-
-#ABOUT {
-    background-color: red;
-}
-
-#EXPERIENCE {
-
-}
-
-#PROJECTS {
-
-}
-
-#CONTACT {
-}
 
 .heading {
     font-size: 64px;
@@ -111,6 +98,17 @@ html {
     flex: 1
         /*makes sure the element takes up as much space as possible in the wrapper*/
 }
+
+/*ABOUT SECTION STYLES*/
+
+.list-group{
+    --bs-list-group-color: rgb(34, 28, 14);
+    --bs-list-group-bg: rgba(179, 201, 226, 0.1);
+    --bs-list-group-border-color: rgba(34, 28, 14, 0.2)
+
+}
+
+
 
 /*EXPERIENCE SECTION STYLES*/
 

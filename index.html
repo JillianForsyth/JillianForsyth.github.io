@@ -14,13 +14,12 @@
     <!--this links me to bootstrap-->
     <link rel="stylesheet" href="CSS/stylesheet.css"> <!--this links my CSS stylesheet-->
 
-    <script src="JS/script.js"></script> <!--this links my attempt to do JS to delete-->
 
     <title>Jillian Forsyth - Portfolio Website</title>
 </head>
 
 <body>
-
+    <!--this is the start of my Navbar-->
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #975215">
             <!--fixed top keeps header at top of page-->
@@ -57,9 +56,10 @@
                 </div>
             </div>
         </nav>
-
+        <!--this is the end of my Navbar-->
     </header>
 
+    <!--this is the start of my Home section-->
     <section id="HOME">
         <div class="wrapper">
             <div class="profile">
@@ -79,14 +79,57 @@
             </div>
         </div>
     </section>
+    <!--this is the end of my Home section-->
 
 
-
-
+<!--this is the start of my About section-->
     <section id="ABOUT">
-        <h2 class="heading">About</h2>
+        <div class="container">
+            <div class="row"> 
+                <div class="col-9 col-md-6">
+                    <h1 class="heading">About</h1>
+                </div>
+                <div class="col-7">
+                    <h4 style="color: rgb(151, 82, 21);">Here's a little more about me and my interests</h4><br>
+                    <p>This is a space for me to share a bit more about what has led me to pursue a career in archives.
+                        I will also use this space to write about my current research interests.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, blanditiis ipsa in ipsam ea
+                        provident, quisquam repudiandae autem eveniet et aut illum repellendus expedita a quibusdam
+                        animi quam quod fugit magnam! Beatae commodi dicta, quod laborum quia voluptatem sint
+                        voluptatibus odio aperiam! Repellat repellendus ipsam cum blanditiis veritatis nisi illo
+                        cupiditate fugit, tempore animi quae consequuntur aspernatur aliquid, dolores dolor atque.
+                        Dolorum facilis libero sunt rerum ipsam cupiditate iste recusandae? </p>
+                    <p>Aspernatur nemo neque consequatur voluptatibus odit eaque eum numquam cum exercitationem id,
+                        aliquam accusamus
+                        commodi, ad reprehenderit illum vel. Libero laudantium ipsa quis quaerat error excepturi, nisi
+                        dolor iure vel quos qui ullam porro ducimus, voluptatem itaque consectetur esse impedit
+                        deleniti.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, neque sed? In ut minima inventore architecto hic amet vel eaque cum alias! Atque aut quae corporis excepturi ipsum voluptas pariatur debitis accusamus, deleniti officia. Dolorem error inventore quas dignissimos recusandae laudantium pariatur facere sed unde est, aliquid repellendus exercitationem iusto officiis. Provident inventore distinctio nisi et sint cumque, odio architecto?</p>
+                </div>
+                <div class="col-4 offset-md-1"> <!--using offset to creat more space between columns (remember has to equal 12)-->
+                    <h3 style="color: rgb(151, 82, 21);">Education</h3><br>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">MASTER OF INFORMATION STUDIES, McGill University, 2021 - present
+                        </li>
+                        <li class="list-group-item">GRADUATE COURSEWORK: HISTORY (24 credits completed), University of
+                            California, Berkeley, 2017 - 2018</li>
+                        <li class="list-group-item">MASTER OF ARTS: HISTORY, Dalhousie University, 2015 – 2017</li>
+                        <li class="list-group-item">TRILINGUAL INTERNATIONAL BACHELOR OF ARTS: HISTORY, HONS., York
+                            University, Glendon Campus, 2007 – 2011</li>
+                    </ul> <br>
+                    <h3 style="color: rgb(151, 82, 21);">Languages</h3><br>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">English</li>
+                        <li class="list-group-item">French</li>
+                        <li class="list-group-item">Russian</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
+    <!--this is the end of my About section-->
 
+    <!--this is the start of my Experience section-->
     <section id="EXPERIENCE">
         <div class="container">
             <div class="row pb-5"> <!--pb = padding bottom 1 to 5-->
@@ -184,27 +227,30 @@
             <h4>Skills</h4>
             <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
                 aria-valuemax="100"> <!--mb-3 creates space between each bar-->
-                <div class="progress-bar" style="width: 10%">Python</div> <!--one issue with this is that it's not responsive-->
+                <div class="progress-bar" style="width: 10%">Python</div>
+                <!--one issue with this is that it's not responsive-->
             </div>
-            <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
-                aria-valuemax="100">
+            <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
                 <div class="progress-bar" style="width: 25%">Bitcurator</div>
             </div>
-            <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
-                aria-valuemax="100">
+            <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="50"
+                aria-valuemin="0" aria-valuemax="100">
                 <div class="progress-bar" style="width: 50%">TMS</div>
             </div>
-            <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
-                aria-valuemax="100">
+            <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
                 <div class="progress-bar" style="width: 75%">ArchivesSpace</div>
             </div>
-            <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100">
+            <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                aria-valuemin="0" aria-valuemax="100">
                 <div class="progress-bar" style="width: 100%">Arrangement & Description</div>
             </div>
         </div>
     </section>
+    <!--this is the end of my Experience section-->
 
+    <!--this is the start of my Projects section-->
     <section id="PROJECTS">
         <div class="container">
             <div class="row pt-5 pb-3"> <!--pb = padding bottom 1 to 5-->
@@ -266,7 +312,10 @@
             </div>
         </div>
     </section>
+    <!--this is the end of my Projects section-->
 
+
+    <!--this is my Contact section. Note that the form just does not actually send to my e-mail - just a demo-->
     <section id="CONTACT">
         <div class="contact-container">
             <form action="" class="contact">
@@ -281,7 +330,10 @@
             </form>
         </div>
     </section>
+    <!--this is the end of my Contact section-->
 
+
+    <!--this is the start of my footer-->
     <footer>
         <div class="footerContainer">
             <div class="footerNav">
@@ -299,6 +351,7 @@
 
         </div>
     </footer>
+    <!--this is the end of my footer-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
