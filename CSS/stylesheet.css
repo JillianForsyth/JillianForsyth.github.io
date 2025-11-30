@@ -57,12 +57,13 @@ img{
 #EXPERIENCE,
 #PROJECTS,
 #CONTACT {
-    height: 100vh;
     padding: 3rem; /*this stops the sections from overlapping with one another*/
     overflow-y: scroll; /*this is my way to prevent the sections from overlapping and being more responsive to different screen sizes*/
 }
 
-
+#HOME{
+    height: 100vh;
+} /*added this since I found that the About page would often be visible beneath - wasn't happening for other pages, so just targeted this one*/
 
 .heading {
     font-size: 64px;
