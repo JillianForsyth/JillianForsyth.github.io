@@ -82,10 +82,10 @@
     <!--this is the end of my Home section-->
 
 
-<!--this is the start of my About section-->
+    <!--this is the start of my About section-->
     <section id="ABOUT">
         <div class="container">
-            <div class="row"> 
+            <div class="row">
                 <div class="col-9 col-md-6">
                     <h1 class="heading">About</h1>
                 </div>
@@ -104,9 +104,14 @@
                         commodi, ad reprehenderit illum vel. Libero laudantium ipsa quis quaerat error excepturi, nisi
                         dolor iure vel quos qui ullam porro ducimus, voluptatem itaque consectetur esse impedit
                         deleniti.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, neque sed? In ut minima inventore architecto hic amet vel eaque cum alias! Atque aut quae corporis excepturi ipsum voluptas pariatur debitis accusamus, deleniti officia. Dolorem error inventore quas dignissimos recusandae laudantium pariatur facere sed unde est, aliquid repellendus exercitationem iusto officiis. Provident inventore distinctio nisi et sint cumque, odio architecto?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, neque sed? In ut minima inventore
+                        architecto hic amet vel eaque cum alias! Atque aut quae corporis excepturi ipsum voluptas
+                        pariatur debitis accusamus, deleniti officia. Dolorem error inventore quas dignissimos
+                        recusandae laudantium pariatur facere sed unde est, aliquid repellendus exercitationem iusto
+                        officiis. Provident inventore distinctio nisi et sint cumque, odio architecto?</p>
                 </div>
-                <div class="col-4 offset-md-1"> <!--using offset to creat more space between columns (remember has to equal 12)-->
+                <div class="col-4 offset-md-1">
+                    <!--using offset to creat more space between columns (remember has to equal 12)-->
                     <h3 style="color: rgb(151, 82, 21);">Education</h3><br>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">MASTER OF INFORMATION STUDIES, McGill University, 2021 - present
@@ -323,9 +328,9 @@
                     <h1>Get in touch</h1>
                     <hr>
                 </div>
-                <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
-                <input type="email" name="email" placeholder="Your email" class="contact-inputs" required>
-                <textarea name="message" placeholder="Your message" class="contact-inputs" required></textarea>
+                <input type="text" name="name" id="name" placeholder="Your name" class="contact-inputs" required> 
+                <input type="email" name="email" id="email" placeholder="Your email" class="contact-inputs" required>
+                <textarea name="message" id="yourmessage" placeholder="Your message" class="contact-inputs" required></textarea>
                 <button type="submit">Submit</button>
             </form>
         </div>
@@ -333,22 +338,23 @@
     <!--this is the end of my Contact section-->
 
 
-<!--this is the start of my footer-->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-bottom" style="background-color: rgb(151, 82, 21)">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav mx-auto"> <!--using mx-auto to put footer links in center-->
-        <a class="nav-link" href="#HOME">HOME</a>
-        <a class="nav-link" href="#ABOUT">ABOUT</a>
-        <a class="nav-link" href="#EXPERIENCE">EXPERIENCE</a>
-        <a class="nav-link" href="#PROJECTS">PROJECTS</a>
-        <a class="nav-link" href="#CONTACT">CONTACT</a>
-      </div>
-</nav>
-<!--this is the end of my footer-->
+    <!--this is the start of my footer-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-bottom" style="background-color: rgb(151, 82, 21)">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto"> <!--using mx-auto to put footer links in center-->
+                    <a class="nav-link" href="#HOME">HOME</a>
+                    <a class="nav-link" href="#ABOUT">ABOUT</a>
+                    <a class="nav-link" href="#EXPERIENCE">EXPERIENCE</a>
+                    <a class="nav-link" href="#PROJECTS">PROJECTS</a>
+                    <a class="nav-link" href="#CONTACT">CONTACT</a>
+                </div>
+    </nav>
+    <!--this is the end of my footer-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

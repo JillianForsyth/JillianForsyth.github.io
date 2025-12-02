@@ -1,6 +1,4 @@
 /* CSS RESET */
-
-
 * {
     margin: 0;
     padding: 0;
@@ -19,31 +17,33 @@ ul {
 
 
 /* BASE STYLES */
-
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
     /*stops the navbar from covering content on the screen*/
 }
 
-img{
-    max-inline-size: 100%; /*makes the Home image and any other future images responsive*/
+img {
+    max-inline-size: 100%;
+    /*makes the Home image and any other future images responsive*/
 
 }
 
 @media (max-width: 800px) {
-    .contact-inputs{
-        width: 60vw; /*this is to make the form viewable on mobile*/
+    .contact-inputs {
+        width: 60vw;
+        /*this is to make the form viewable on mobile - not sure if this worked?*/
     }
-    }
+}
 
 
- body {
-        font-family: 'quando', Georgia, serif;
-        background-color: rgb(245, 245, 245);
-        /*background colour for entire website*/
-        padding: 12.5rem 10vw 2rem; /*gives a menu style appearance to entire website*/
- }
+body {
+    font-family: 'quando', Georgia, serif;
+    background-color: rgb(245, 245, 245);
+    /*background colour for entire website*/
+    padding: 12.5rem 10vw 2rem;
+    /*gives a menu style appearance to entire website*/
+}
 
 /* NAVBAR STYLES */
 
@@ -52,19 +52,22 @@ img{
 }/*Wave wesbite said contrast between header background and preset bootstrap font colour wasn't strong enough, so I changed to a higher contrast colour*/
 
 /* MAIN SITE STYLES */
-
 #HOME,
 #ABOUT,
 #EXPERIENCE,
 #PROJECTS,
 #CONTACT {
-    padding: 3rem; /*this stops the sections from overlapping with one another*/
-    overflow-y: scroll; /*this is my way to prevent the sections from overlapping and being more responsive to different screen sizes*/
+    padding: 3rem;
+    /*this stops the sections from overlapping with one another*/
+    overflow-y: scroll;
+    /*this is my way to prevent the sections from overlapping and being more responsive to different screen sizes*/
 }
 
-#HOME{
+#HOME {
     height: 100vh;
-} /*added this since I found that the About page would often be visible beneath - wasn't happening for other pages, so just targeted this one*/
+}
+
+/*added this since I found that the About page would often be visible beneath - wasn't happening for other pages, so just targeted this one*/
 
 .heading {
     font-size: 64px;
@@ -103,30 +106,31 @@ img{
 
 /*ABOUT SECTION STYLES*/
 
-.list-group{
+.list-group {
     --bs-list-group-color: rgb(34, 28, 14);
     --bs-list-group-bg: rgba(179, 201, 226, 0.1);
     --bs-list-group-border-color: rgba(34, 28, 14, 0.2)
-
 }
 
 
 
 /*EXPERIENCE SECTION STYLES*/
 
-.accordion{
+.accordion {
     --bs-accordion-btn-bg: rgba(179, 201, 226, 0.7);
-    --bs-accordion-active-bg:  rgb(151, 82, 21);
-    --bs-accordion-bg:  rgb(245, 245, 245);
-    --bs-accordion-btn-focus-box-shadow: none; /*gets rid of blue border*/
-    --bs-accordion-active-color: rgb(236, 237, 218); /*this is for font colour in accordion*/   
-} 
+    --bs-accordion-active-bg: rgb(151, 82, 21);
+    --bs-accordion-bg: rgb(245, 245, 245);
+    --bs-accordion-btn-focus-box-shadow: none;
+    /*gets rid of blue border*/
+    --bs-accordion-active-color: rgb(236, 237, 218);
+    /*this is for font colour in accordion*/
+}
 
 .accordion-button:not(.collapsed) {
     box-shadow: none;
 }
 
-.progress{
+.progress {
     --bs-progress-height: 3rem;
     --bs-progress-font-size: 16px;
     --bs-progress-bg: rgba(179, 201, 226, 0.3);
@@ -166,25 +170,27 @@ img{
 
 .card:hover {
     transform: scale(1.15);
-}/*enlarges card when hovered over*/
+}
+
+/*enlarges card when hovered over*/
 
 
 /*CONTACT SECTION STYLES*/
 
-.contact-container{
+.contact-container {
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
 }
 
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-.contact-title h1{
+.contact-title h1 {
     font-weight: 600;
     color: rgb(59, 49, 24);
     font-size: 64px;
@@ -192,7 +198,7 @@ img{
 
 }
 
-.contact-title hr{
+.contact-title hr {
     border: none;
     width: 240px;
     height: 5px;
@@ -202,7 +208,7 @@ img{
 
 }
 
-.contact-inputs{
+.contact-inputs {
     width: 400px;
     height: 50px;
     border: none;
@@ -214,18 +220,18 @@ img{
 
 }
 
-.contact textarea{
+.contact textarea {
     height: 140px;
     padding-top: 15px;
     border-radius: 20px;
 }
 
-.contact-inputs:focus{
+.contact-inputs:focus {
     border: 2px solid rgb(179, 201, 226);
 
 }
 
-.contact button{
+.contact button {
     display: flex;
     align-items: center;
     padding: 15px 30px;
@@ -239,7 +245,7 @@ img{
 
 }
 
-.contact button:hover{
+.contact button:hover {
     background: rgb(59, 49, 24);
     color: rgb(179, 201, 226);
 
