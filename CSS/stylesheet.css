@@ -70,7 +70,7 @@ body {
 /*added this since I found that the About page would often be visible beneath - wasn't happening for other pages, so just targeted this one*/
 
 .heading {
-    font-size: 64px;
+    font-size: 4em; /*struggled a bit with making the heading "Experience" even though using rem, it still does not show the complete word for smaller screens*/
     color: rgb(34, 28, 14);
 }
 
@@ -196,9 +196,6 @@ body {
 }
 
 .contact-title h1 {
-    font-weight: 600;
-    color: rgb(59, 49, 24);
-    font-size: 64px;
     margin-bottom: 5px;
 
 }
@@ -242,7 +239,6 @@ body {
     padding: 15px 30px;
     font-size: 16px;
     color: rgb(59, 49, 24);
-    gap: 10px;
     border: none;
     border-radius: 50px;
     background: rgb(179, 201, 226);
