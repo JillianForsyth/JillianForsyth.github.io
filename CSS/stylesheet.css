@@ -19,20 +19,16 @@ ul {
 /* BASE STYLES */
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 6rem;
-    /*stops the navbar from covering content on the screen*/
+    scroll-padding-top: 6rem; /*stops the navbar from covering content on the screen*/
 }
 
 img {
-    max-inline-size: 100%;
-    /*makes the Home image and any other future images responsive*/
-
+    max-inline-size: 100%; /*makes the Home image and any other future images responsive*/
 }
 
 @media (max-width: 800px) {
     .contact-inputs {
-        width: 60vw;
-        /*this is to make the form viewable on mobile - not sure if this worked?*/
+        width: 60vw; /*this is to make the form viewable on mobile - not sure if this worked?*/
     }
 }
 
@@ -60,17 +56,15 @@ body {
     padding: 3rem;
     /*this stops the sections from overlapping with one another*/
     overflow-y: scroll;
-    /*this is my way to prevent the sections from overlapping and being more responsive to different screen sizes*/
+    /*this is how I'm preventing the sections from overlapping and being more responsive to different screen sizes*/
 }
 
 #HOME {
     height: 100vh;
-}
-
-/*added this since I found that the About page would often be visible beneath - wasn't happening for other pages, so just targeted this one*/
+} /*added this since I found that the About page would often be visible beneath - wasn't happening for other pages, so just targeted this one*/
 
 .heading {
-    font-size: 4em; /*struggled a bit with making the heading "Experience" even though using rem, it still does not show the complete word for smaller screens*/
+    font-size: 4rem; /*struggled a bit with making the heading "Experience" responsive even though using rem, it still does not show the complete word for smaller screens*/
     color: rgb(34, 28, 14);
 }
 
