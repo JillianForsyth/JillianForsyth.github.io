@@ -124,6 +124,13 @@ body {
     /*gets rid of blue border*/
     --bs-accordion-active-color: rgb(236, 237, 218);
     /*this is for font colour in accordion*/
+    --bs-accordion-btn-padding-x: 3rem;
+    --bs-accordion-btn-padding-y: 2rem;
+    /*this padding around the job title buttons implements changes suggested during one-on-one meeting*/
+    --bs-accordion-body-padding-x: 5rem;
+    --bs-accordion-body-padding-y: 2rem;
+    /*same with this padding around the paragraphs within the accordion*/
+
 }
 
 .accordion-button:not(.collapsed) {
